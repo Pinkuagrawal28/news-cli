@@ -1,0 +1,13 @@
+{
+  "sources": {
+    "techcrunch": "https://techcrunch.com/feed/",
+    "ars-technica": "https://arstechnica.com/feed/",
+    "wired": "https://www.wired.com/feed/rss",
+    "the-verge": "https://www.theverge.com/rss/index.xml",
+    "hacker-news": "https://news.ycombinator.com/rss",
+    "lobsters": "https://lobste.rs/rss",
+    "dev-to": "https://dev.to/feed",
+    "smashing-magazine": "https://www.smashingmagazine.com/feed/",
+    "a-list-apart": "https://alistapart.com/main/feed/"
+  }
+}

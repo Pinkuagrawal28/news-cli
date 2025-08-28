@@ -1,47 +1,57 @@
 # Tech News CLI
 
-A command-line interface to fetch and read the latest tech news from various sources.
+A command-line interface to fetch, read, and manage the latest tech news from various sources. Stay updated directly from your terminal!
 
-## Installation
+## ✨ Features
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/tech-news-cli.git
-   cd tech-news-cli
-   ```
+- **News Aggregation:** Fetch headlines from multiple RSS feed sources.
+- **In-Terminal Article Reading:** Read full articles directly in your terminal, stripped of clutter.
+- **Bookmarking:** Save articles for later reading and easily access them.
+- **Source Management:** Add, list, and remove your preferred news sources.
+- **Interactive Interface:** Navigate through news and options with user-friendly prompts.
 
-2. Install the dependencies:
-   ```sh
-   npm install
-   ```
+For a detailed list of features, see [Features Documentation](docs/features.md).
 
-3. Install the CLI globally (optional, for easy access):
-   ```sh
-   npm install -g .
-   ```
+## 🚀 Installation
 
-## Usage
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/tech-news-cli.git
+    cd tech-news-cli
+    ```
 
-Run the CLI with the following command:
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-```sh
-news
+3.  **Install the CLI globally (optional, for easy access):**
+    ```bash
+    npm install -g .
+    ```
+
+## 📖 Usage
+
+To start the interactive news reader, run:
+
+```bash
+news show
 ```
 
-This will prompt you to select the news sources you want to fetch from.
+This will present you with options to go to your bookmarks, select news sources, or exit.
 
-### Options
+### Key Commands:
 
-- `-t, --top <number>`: Specify the number of top articles to fetch (default: 5).
+-   `news show`: Start the interactive main menu.
+-   `news sources add <name> <url>`: Add a new news source.
+-   `news bookmark add <url>`: Bookmark an article.
+-   `news bookmark list`: List all your saved bookmarks.
 
-  Example:
-  ```sh
-  news --top 10
-  ```
+For a complete list of commands and their usage, see [Commands Documentation](docs/commands.md).
 
-## Configuration
+## ⚙️ Configuration
 
-You can customize the news sources by editing the `config.json` file. This file contains a list of RSS feeds that the CLI uses to fetch news.
+You can customize your news sources by editing the `config.json` file. This file contains a list of RSS feeds that the CLI uses to fetch news.
 
 ```json
 {
@@ -59,6 +69,16 @@ You can customize the news sources by editing the `config.json` file. This file 
 }
 ```
 
-## License
+## 📚 Documentation
+
+-   [Commands](docs/commands.md): Detailed usage of all CLI commands.
+-   [Features](docs/features.md): In-depth description of all functionalities.
+-   [Troubleshooting](docs/troubleshooting.md): Solutions to common issues and errors.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to open issues or submit pull requests.
+
+## 📄 License
 
 This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.

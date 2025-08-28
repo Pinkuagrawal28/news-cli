@@ -6,6 +6,7 @@ A command-line interface to fetch, read, and manage the latest tech news from va
 
 - **News Aggregation:** Fetch headlines from multiple RSS feed sources.
 - **In-Terminal Article Reading:** Read full articles directly in your terminal, stripped of clutter.
+![In-Terminal Reader](docs/demo/stage 4 - In Terminal Reader.png)
 - **Bookmarking:** Save articles for later reading and easily access them.
 - **Source Management:** Add, list, and remove your preferred news sources.
 - **Interactive Interface:** Navigate through news and options with user-friendly prompts.
@@ -39,6 +40,8 @@ news show
 ```
 
 This will present you with options to go to your bookmarks, select news sources, or exit.
+
+![Main Menu](docs/demo/stage 0 - Selecting Source or Bookmark.png)
 
 ### Key Commands:
 

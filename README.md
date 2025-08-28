@@ -74,6 +74,7 @@ You can customize your news sources by editing the `config.json` file. This file
 -   [Commands](docs/commands.md): Detailed usage of all CLI commands.
 -   [Features](docs/features.md): In-depth description of all functionalities.
 -   [Troubleshooting](docs/troubleshooting.md): Solutions to common issues and errors.
+-   [Visual Demo](docs/demo.md): A visual walkthrough of the CLI's features.
 
 ## 🤝 Contributing
 

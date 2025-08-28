@@ -28,3 +28,7 @@ This document highlights the key features of the Tech News CLI.
 
 - Built with Node.js, making it easy to extend and customize.
 - Open-source project, welcoming contributions and improvements.
+
+## 🎬 Visual Demo
+
+For a visual demonstration of the CLI in action, please see the [Visual Demo](demo.md) page.
